@@ -212,6 +212,10 @@ section {
   cursor: pointer;
   height: 2rem;
 }
+.clientlogo {
+  cursor: pointer;
+  height: 10rem;
+}
 
 /* BUTTONS */
 
@@ -296,13 +300,23 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
+  background: rgba(157, 157, 157, 0.199);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.details1-container {
+  padding: 1.5rem;
+  margin: 5%;
+
+  flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
-
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -369,15 +383,16 @@ article .icon {
   width: 90%;
   height: 90%;
 }
-.project-img1 {
-  border-radius: 1rem;
-  width : 70%;
-   height:70%;
-}
+
 
 .project-title {
   margin: 1rem;
   color: black;
+}
+.project-img1 {
+  border-radius: 1rem;
+  width : 70%;
+   height:70%;
 }
 
 .project-btn {
@@ -453,4 +468,11 @@ footer p {
   display: grid;
   place-items: center;
 }
-
+.leftdiv { 
+  width: 50%;
+  float: left;
+}
+.rightdiv { 
+  width: 50%;
+  float: right;
+}
