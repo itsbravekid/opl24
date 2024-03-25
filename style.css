@@ -383,6 +383,13 @@ article .icon {
   width: 90%;
   height: 90%;
 }
+.project-img1 {
+  border-radius: 1rem;
+  width: 70%;
+  height: 70%;
+}
+
+
 
 .project-title {
   margin: 1rem;
